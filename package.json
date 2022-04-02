@@ -30,10 +30,10 @@
     "postinstall": "husky install"
   },
   "dependencies": {
-    "@emotion/react": "^11.8.2",
-    "@emotion/styled": "^11.8.1",
-    "next": "^12.1.0",
-    "preact": "^10.6.6",
+    "@emotion/react": "11.8.2",
+    "@emotion/styled": "11.8.1",
+    "next": "12.1.4",
+    "preact": "10.7.0",
     "react": "npm:@preact/compat@17.0.3",
     "react-dom": "npm:@preact/compat@17.0.3"
   },
