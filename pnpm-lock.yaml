@@ -9,14 +9,14 @@ specifiers:
   '@emotion/serialize': 1.0.3
   '@emotion/styled': ^11.8.1
   '@types/node': 17.0.21
-  '@types/react': 17.0.45
+  '@types/react': 18.0.9
   '@types/tailwindcss': 3.0.10
   autoprefixer: 10.4.7
   babel-plugin-macros: 3.1.0
   cross-env: 7.0.3
   eslint: 8.15.0
   eslint-config-re-taro: 1.1.3
-  husky: 7.0.4
+  husky: 8.0.1
   lint-staged: 12.4.1
   next: ^12.1.0
   postcss: 8.4.14
@@ -30,8 +30,8 @@ specifiers:
   typescript: 4.6.4
 
 dependencies:
-  '@emotion/react': 11.8.2_b0aa47294e0cfb4f59b3780f060b91d9
-  '@emotion/styled': 11.8.1_7527943dd463abdd5e18c3a5fafff18c
+  '@emotion/react': 11.8.2_9e1e0eec923640479d044b1d07c05e87
+  '@emotion/styled': 11.8.1_4c0cc130bf0404b8850d5a29fa6cfd57
   next: 12.1.4_2ed6677edc118e06f982bb4501cd63ce
   preact: 10.7.0
   react: /@preact/compat/17.0.3_preact@10.7.0
@@ -44,14 +44,14 @@ devDependencies:
   '@emotion/babel-plugin-jsx-pragmatic': 0.1.5_@babel+core@7.17.12
   '@emotion/serialize': 1.0.3
   '@types/node': 17.0.21
-  '@types/react': 17.0.45
+  '@types/react': 18.0.9
   '@types/tailwindcss': 3.0.10
   autoprefixer: 10.4.7_postcss@8.4.14
   babel-plugin-macros: 3.1.0
   cross-env: 7.0.3
   eslint: 8.15.0
   eslint-config-re-taro: 1.1.3_d0edd7503d256c1bdeb44bd34bbca522
-  husky: 7.0.4
+  husky: 8.0.1
   lint-staged: 12.4.1
   postcss: 8.4.14
   preact-render-to-string: 5.2.0_preact@10.7.0
@@ -614,7 +614,7 @@ packages:
   /@emotion/memoize/0.7.5:
     resolution: {integrity: sha512-igX9a37DR2ZPGYtV6suZ6whr8pTFtyHL3K/oLUotxpSVO2ASaprmAe2Dkq7tBo7CRY7MMDrAa9nuQP9/YG8FxQ==}
 
-  /@emotion/react/11.8.2_b0aa47294e0cfb4f59b3780f060b91d9:
+  /@emotion/react/11.8.2_9e1e0eec923640479d044b1d07c05e87:
     resolution: {integrity: sha512-+1bcHBaNJv5nkIIgnGKVsie3otS0wF9f1T1hteF3WeVvMNQEtfZ4YyFpnphGoot3ilU/wWMgP2SgIDuHLE/wAA==}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -633,7 +633,7 @@ packages:
       '@emotion/serialize': 1.0.3
       '@emotion/utils': 1.1.0
       '@emotion/weak-memoize': 0.2.5
-      '@types/react': 17.0.45
+      '@types/react': 18.0.9
       hoist-non-react-statics: 3.3.2
       react: /@preact/compat/17.0.3_preact@10.7.0
     dev: false
@@ -651,7 +651,7 @@ packages:
     resolution: {integrity: sha512-u0AX4aSo25sMAygCuQTzS+HsImZFuS8llY8O7b9MDRzbJM0kVJlAz6KNDqcG7pOuQZJmj/8X/rAW+66kMnMW+g==}
     dev: false
 
-  /@emotion/styled/11.8.1_7527943dd463abdd5e18c3a5fafff18c:
+  /@emotion/styled/11.8.1_4c0cc130bf0404b8850d5a29fa6cfd57:
     resolution: {integrity: sha512-OghEVAYBZMpEquHZwuelXcRjRJQOVayvbmNR0zr174NHdmMgrNkLC6TljKC5h9lZLkN5WGrdUcrKlOJ4phhoTQ==}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -668,10 +668,10 @@ packages:
       '@babel/runtime': 7.17.8
       '@emotion/babel-plugin': 11.9.2_@babel+core@7.17.12
       '@emotion/is-prop-valid': 1.1.2
-      '@emotion/react': 11.8.2_b0aa47294e0cfb4f59b3780f060b91d9
+      '@emotion/react': 11.8.2_9e1e0eec923640479d044b1d07c05e87
       '@emotion/serialize': 1.0.3
       '@emotion/utils': 1.1.0
-      '@types/react': 17.0.45
+      '@types/react': 18.0.9
       react: /@preact/compat/17.0.3_preact@10.7.0
     dev: false
 
@@ -1257,8 +1257,8 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
     dev: true
 
-  /@types/react/17.0.45:
-    resolution: {integrity: sha512-YfhQ22Lah2e3CHPsb93tRwIGNiSwkuz1/blk4e6QrWS0jQzCSNbGLtOEYhPg02W0yGTTmpajp7dCTbBAMN3qsg==}
+  /@types/react/18.0.9:
+    resolution: {integrity: sha512-9bjbg1hJHUm4De19L1cHiW0Jvx3geel6Qczhjd0qY5VKVE2X5+x77YxAepuCwVh4vrgZJdgEJw48zrhRIeF4Nw==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
@@ -3267,9 +3267,9 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /husky/7.0.4:
-    resolution: {integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==}
-    engines: {node: '>=12'}
+  /husky/8.0.1:
+    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
