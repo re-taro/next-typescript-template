@@ -23,19 +23,19 @@ specifiers:
   preact: ^10.6.6
   preact-render-to-string: 5.2.0
   prettier: 2.6.2
-  react: npm:@preact/compat@17.0.3
-  react-dom: npm:@preact/compat@17.0.3
+  react: npm:@preact/compat@17.1.1
+  react-dom: npm:@preact/compat@17.1.1
   tailwindcss: 3.0.24
   twin.macro: 2.8.2
   typescript: 4.7.3
 
 dependencies:
-  '@emotion/react': 11.8.2_0e195972f87900c20b5e2ded16debe59
-  '@emotion/styled': 11.8.1_320c884e47992ee6225f9c7fc092955a
-  next: 12.1.4_ff220971dca80de5d04859210d661675
+  '@emotion/react': 11.8.2_bfcbcc0201a09595f11115f27a076dae
+  '@emotion/styled': 11.8.1_6bcd0d76363d06ae19e93935ad6b29d8
+  next: 12.1.4_77fad4cbd94c7848c3f73db9c4eab834
   preact: 10.7.0
-  react: /@preact/compat/17.0.3_preact@10.7.0
-  react-dom: /@preact/compat/17.0.3_preact@10.7.0
+  react: /@preact/compat/17.1.1_preact@10.7.0
+  react-dom: /@preact/compat/17.1.1_preact@10.7.0
 
 devDependencies:
   '@babel/core': 7.18.2
@@ -609,7 +609,7 @@ packages:
   /@emotion/memoize/0.7.5:
     resolution: {integrity: sha512-igX9a37DR2ZPGYtV6suZ6whr8pTFtyHL3K/oLUotxpSVO2ASaprmAe2Dkq7tBo7CRY7MMDrAa9nuQP9/YG8FxQ==}
 
-  /@emotion/react/11.8.2_0e195972f87900c20b5e2ded16debe59:
+  /@emotion/react/11.8.2_bfcbcc0201a09595f11115f27a076dae:
     resolution: {integrity: sha512-+1bcHBaNJv5nkIIgnGKVsie3otS0wF9f1T1hteF3WeVvMNQEtfZ4YyFpnphGoot3ilU/wWMgP2SgIDuHLE/wAA==}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -630,7 +630,7 @@ packages:
       '@emotion/weak-memoize': 0.2.5
       '@types/react': 18.0.12
       hoist-non-react-statics: 3.3.2
-      react: /@preact/compat/17.0.3_preact@10.7.0
+      react: /@preact/compat/17.1.1_preact@10.7.0
     dev: false
 
   /@emotion/serialize/1.0.3:
@@ -646,7 +646,7 @@ packages:
     resolution: {integrity: sha512-u0AX4aSo25sMAygCuQTzS+HsImZFuS8llY8O7b9MDRzbJM0kVJlAz6KNDqcG7pOuQZJmj/8X/rAW+66kMnMW+g==}
     dev: false
 
-  /@emotion/styled/11.8.1_320c884e47992ee6225f9c7fc092955a:
+  /@emotion/styled/11.8.1_6bcd0d76363d06ae19e93935ad6b29d8:
     resolution: {integrity: sha512-OghEVAYBZMpEquHZwuelXcRjRJQOVayvbmNR0zr174NHdmMgrNkLC6TljKC5h9lZLkN5WGrdUcrKlOJ4phhoTQ==}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -663,11 +663,11 @@ packages:
       '@babel/runtime': 7.17.8
       '@emotion/babel-plugin': 11.9.2_@babel+core@7.18.2
       '@emotion/is-prop-valid': 1.1.2
-      '@emotion/react': 11.8.2_0e195972f87900c20b5e2ded16debe59
+      '@emotion/react': 11.8.2_bfcbcc0201a09595f11115f27a076dae
       '@emotion/serialize': 1.0.3
       '@emotion/utils': 1.1.0
       '@types/react': 18.0.12
-      react: /@preact/compat/17.0.3_preact@10.7.0
+      react: /@preact/compat/17.1.1_preact@10.7.0
     dev: false
 
   /@emotion/unitless/0.7.5:
@@ -1117,8 +1117,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@preact/compat/17.0.3_preact@10.7.0:
-    resolution: {integrity: sha512-lzkui97aQ00hxzUwfRfZm7jUXE1bjWyOXiqm8DeWYhkD+G9ZaY1wso/itqyg60wGnP9DRlM4PDn2blIOnh1yeg==}
+  /@preact/compat/17.1.1_preact@10.7.0:
+    resolution: {integrity: sha512-OjQJ6oVcjFTiKWs4MIoE/cORFFGhqnt1RO0uxGNAFUglBMPNahMDJyX5w+qEOEaOpaNTLM1L3ixc2bFEpxgs3A==}
     peerDependencies:
       preact: '*'
     dependencies:
@@ -4314,7 +4314,7 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next/12.1.4_ff220971dca80de5d04859210d661675:
+  /next/12.1.4_77fad4cbd94c7848c3f73db9c4eab834:
     resolution: {integrity: sha512-DA4g97BM4Z0nKtDvCTm58RxdvoQyYzeg0AeVbh0N4Y/D8ELrNu47lQeEgRGF8hV4eQ+Sal90zxrJQQG/mPQ8CQ==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -4335,9 +4335,9 @@ packages:
       '@next/env': 12.1.4
       caniuse-lite: 1.0.30001323
       postcss: 8.4.5
-      react: /@preact/compat/17.0.3_preact@10.7.0
-      react-dom: /@preact/compat/17.0.3_preact@10.7.0
-      styled-jsx: 5.0.1_9f7fa29695b46f599e4c8cb5e9583f5a
+      react: /@preact/compat/17.1.1_preact@10.7.0
+      react-dom: /@preact/compat/17.1.1_preact@10.7.0
+      styled-jsx: 5.0.1_505c62de5aa1cfd874ead959df0a5c96
     optionalDependencies:
       '@next/swc-android-arm-eabi': 12.1.4
       '@next/swc-android-arm64': 12.1.4
@@ -5323,7 +5323,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-jsx/5.0.1_9f7fa29695b46f599e4c8cb5e9583f5a:
+  /styled-jsx/5.0.1_505c62de5aa1cfd874ead959df0a5c96:
     resolution: {integrity: sha512-+PIZ/6Uk40mphiQJJI1202b+/dYeTVd9ZnMPR80pgiWbjIwvN2zIp4r9et0BgqBuShh48I0gttPlAXA7WVvBxw==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -5338,7 +5338,7 @@ packages:
     dependencies:
       '@babel/core': 7.18.2
       babel-plugin-macros: 3.1.0
-      react: /@preact/compat/17.0.3_preact@10.7.0
+      react: /@preact/compat/17.1.1_preact@10.7.0
     dev: false
 
   /stylis/4.0.13:
